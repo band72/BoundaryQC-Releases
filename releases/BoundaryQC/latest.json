@@ -1,0 +1,18 @@
+{
+  "version": "1.5.78",
+  "releaseDate": "2026-05-07",
+  "installerUrl": "https://github.com/band72/BoundaryQC-Releases/releases/download/v1.5.78/BoundaryQC_1.5.78.exe",
+  "releaseNotesUrl": "https://github.com/band72/BoundaryQC-Releases/releases/tag/v1.5.78",
+  "minRequiredVersion": "1.5.0",
+  "isMandatory": false,
+  "changelog": [
+    "Stage-4 deterministic quadrant-flip solver (0 API calls) — targets near-miss FAILs at prec=1:1000-3000",
+    "Empty-bearing purge upstream of geoCalls count — ensures heavy repair triggers correctly",
+    "Stage-3 AI prompt: added distance-anomaly and duplicate-leg detection patterns",
+    "New suffix strip: Westwardly / Eastwardly / Southwardly now resolve to bare cardinals",
+    "Degree-only bearing support: S 60° W parses without minutes/seconds",
+    "Space-separated intercardinals: North Easterly now normalizes correctly",
+    "Compound direction guard: Southeasterly and Southerly treated as meander gap",
+    "Vision fallback empty-JSON guard eliminates spurious WARN logs"
+  ]
+}
