@@ -1,14 +1,12 @@
 {
-  "version": "1.5.81",
-  "releaseDate": "2026-06-13",
-  "installerUrl": "https://github.com/band72/BoundaryQC-Releases/releases/download/v1.5.81/BoundaryQC_1.5.81.exe",
-  "releaseNotesUrl": "https://github.com/band72/BoundaryQC-Releases/releases/tag/v1.5.81",
+  "version": "1.5.82",
+  "releaseDate": "2026-06-14",
+  "installerUrl": "https://github.com/band72/BoundaryQC-Releases/releases/download/v1.5.82/BoundaryQC_1.5.82.exe",
+  "releaseNotesUrl": "https://github.com/band72/BoundaryQC-Releases/releases/tag/v1.5.82",
   "minRequiredVersion": "1.5.0",
   "isMandatory": false,
   "changelog": [
-    "Integrate latest production-ready Gemini models: gemini-3.5-flash, gemini-3.5-pro, gemini-3.1-pro, gemini-3.1-flash-lite",
-    "Update AI Agent backend fallback cascade logic to prioritize gemini-3.5-flash and fallback to gemini-3.1-flash-lite",
-    "Update UI dropdown elements in Settings tab to allow dynamic selector updates",
-    "Stabilize local Ollama recovery spawns and correct arc/chord swap exceptions on custom drawings"
+    "Add support for Custom AI Engine connection settings (API URL, model name, and API key) in the Settings window",
+    "Align label sketch renderer for custom layouts and improve custom AI agent routing"
   ]
 }

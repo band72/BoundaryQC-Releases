@@ -4,7 +4,7 @@
 
 **AI-powered land boundary verification, drafting, and DXF generation for Windows.**
 
-[![Version](https://img.shields.io/badge/version-1.5.78-blue?style=flat-square)](https://github.com/band72/BoundaryQC-Releases/releases/latest)
+[![Version](https://img.shields.io/badge/version-1.5.82-blue?style=flat-square)](https://github.com/band72/BoundaryQC-Releases/releases/latest)
 [![Platform](https://img.shields.io/badge/platform-Windows-0078D4?style=flat-square&logo=windows)](https://github.com/band72/BoundaryQC-Releases/releases/latest)
 [![Framework](https://img.shields.io/badge/.NET-8.0%20WPF-512BD4?style=flat-square&logo=dotnet)](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 [![License](https://img.shields.io/badge/license-Proprietary-red?style=flat-square)](LICENSE)
@@ -216,7 +216,7 @@ Parallel batch mode forks up to **15 concurrent AI agents** — configure under 
 
 ### Installer
 
-1. Download **[BoundaryQC_1.5.78.exe](https://github.com/band72/BoundaryQC-Releases/releases/latest)** from the Releases page.
+1. Download **[BoundaryQC_1.5.82.exe](https://github.com/band72/BoundaryQC-Releases/releases/latest)** from the Releases page.
 2. Run the installer — .NET 8 runtime is bundled, no separate download needed.
 3. Launch **BoundaryQC** from the Start Menu or Desktop shortcut.
 4. Set your **Gemini API key** under Settings → API Key.
@@ -260,5 +260,5 @@ This software is proprietary. Permission is granted for personal and internal ev
 ---
 
 <div align="center">
-<sub>Built with ⬡ for the land surveying community · v1.5.78</sub>
+<sub>Built with ⬡ for the land surveying community · v1.5.82</sub>
 </div>
