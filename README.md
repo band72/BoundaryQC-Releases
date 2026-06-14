@@ -36,6 +36,7 @@ Powered by the **Google Gemini AI** engine, BoundaryQC handles the full pipeline
 | **Legal Description Writer** | Interactive editor to manually compose or correct survey calls with real-time closure feedback |
 | **AI Agent Chat** | Conversational AI interface — drop an image or paste text and get a full DXF + deliverable set |
 | **Auto-Update** | Background version checks with an in-app notification banner when a new release is available |
+| **Custom AI Engine** | Configure custom OpenAI-compatible API endpoints (e.g. Ollama, Local AI, alternative providers) with custom model names and API keys |
 
 ---
 
@@ -203,7 +204,7 @@ Parallel batch mode forks up to **15 concurrent AI agents** — configure under 
 | Layer | Technology |
 |---|---|
 | UI | C# .NET 8.0 WPF |
-| AI Engine | Google Gemini (via `RCS.AntiGravity.Gemini`) |
+| AI Engine | Google Gemini (via `RCS.AntiGravity.Gemini`) or Custom OpenAI-compatible endpoints (e.g., Ollama, Local AI) |
 | COGO Math | Custom `CogoMath` engine — DMS bearing arithmetic, arc solver, shoelace area |
 | DXF Generation | `DeedDrafter`, `DxfRedrawer` (netDxf-compatible output) |
 | Data Persistence | LiteDB (project store) + SQLite/EF Core (relational) |
@@ -219,7 +220,7 @@ Parallel batch mode forks up to **15 concurrent AI agents** — configure under 
 1. Download **[BoundaryQC_1.5.82.exe](https://github.com/band72/BoundaryQC-Releases/releases/latest)** from the Releases page.
 2. Run the installer — .NET 8 runtime is bundled, no separate download needed.
 3. Launch **BoundaryQC** from the Start Menu or Desktop shortcut.
-4. Set your **Gemini API key** under Settings → API Key.
+4. Configure your AI Engine under Settings: choose from Google Gemini models (requires a Gemini API key) or a **Custom** OpenAI-compatible API endpoint (e.g., Ollama, local hosting, or alternative providers).
 
 > Source code is proprietary and not publicly available.
 
