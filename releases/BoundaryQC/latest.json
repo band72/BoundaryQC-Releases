@@ -1,7 +1,7 @@
 {
   "version": "1.5.82",
   "releaseDate": "2026-06-14",
-  "installerUrl": "https://github.com/band72/BoundaryQC-Releases/releases/download/v1.5.82/BoundaryQC_1.5.82.exe",
+  "installerUrl": "https://github.com/band72/BoundaryQC-Releases/raw/main/BoundaryQC_1.5.82.exe",
   "releaseNotesUrl": "https://github.com/band72/BoundaryQC-Releases/releases/tag/v1.5.82",
   "minRequiredVersion": "1.5.0",
   "isMandatory": false,
