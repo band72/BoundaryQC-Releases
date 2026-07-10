@@ -1,12 +1,11 @@
 {
   "version": "1.5.82",
-  "releaseDate": "2026-06-14",
+  "releaseDate": "2026-07-10",
   "installerUrl": "https://github.com/band72/BoundaryQC-Releases/raw/main/BoundaryQC_1.5.82.exe",
   "releaseNotesUrl": "https://github.com/band72/BoundaryQC-Releases/releases/tag/v1.5.82",
   "minRequiredVersion": "1.5.0",
   "isMandatory": false,
   "changelog": [
-    "Add support for Custom AI Engine connection settings (API URL, model name, and API key) in the Settings window",
-    "Align label sketch renderer for custom layouts and improve custom AI agent routing"
+    "Add active engine API key validation check on main page and fix text sizing on Page 2 tables"
   ]
 }
