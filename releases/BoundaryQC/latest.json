@@ -1,12 +1,15 @@
 {
-  "version": "1.5.82",
+  "version": "1.5.83",
   "releaseDate": "2026-07-13",
-  "installerUrl": "https://github.com/band72/BoundaryQC-Releases/raw/main/BoundaryQC_1.5.82.exe",
-  "releaseNotesUrl": "https://github.com/band72/BoundaryQC-Releases/releases/tag/v1.5.82",
+  "installerUrl": "https://github.com/band72/BoundaryQC-Releases/raw/main/BoundaryQC_1.5.83.exe",
+  "releaseNotesUrl": "https://github.com/band72/BoundaryQC-Releases/releases/tag/v1.5.83",
   "minRequiredVersion": "1.5.0",
   "isMandatory": false,
   "changelog": [
-    "Add active engine API key validation check on main page and fix text sizing on Page 2 tables",
-    "Encrypt stored API keys using DPAPI and refactor network clients to prevent socket exhaustion"
+    "Implement AI QA Checklist, export options, and dynamic file naming conventions",
+    "Apply dynamic naming convention to parcel sketches and PDF deliverables",
+    "Increase table font size and layout row heights on Page 2",
+    "Check for active engine API key and update error prompt on main page",
+    "Resolve HttpClient socket exhaustion and encrypt stored API keys with DPAPI"
   ]
 }
