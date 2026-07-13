@@ -1,11 +1,12 @@
 {
   "version": "1.5.82",
-  "releaseDate": "2026-07-10",
+  "releaseDate": "2026-07-13",
   "installerUrl": "https://github.com/band72/BoundaryQC-Releases/raw/main/BoundaryQC_1.5.82.exe",
   "releaseNotesUrl": "https://github.com/band72/BoundaryQC-Releases/releases/tag/v1.5.82",
   "minRequiredVersion": "1.5.0",
   "isMandatory": false,
   "changelog": [
-    "Add active engine API key validation check on main page and fix text sizing on Page 2 tables"
+    "Add active engine API key validation check on main page and fix text sizing on Page 2 tables",
+    "Encrypt stored API keys using DPAPI and refactor network clients to prevent socket exhaustion"
   ]
 }
