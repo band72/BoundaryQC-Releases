@@ -4,12 +4,12 @@
 
 **AI-powered land boundary verification, drafting, and DXF generation for Windows.**
 
-[![Version](https://img.shields.io/badge/version-1.5.82-blue?style=flat-square)](https://github.com/band72/BoundaryQC-Releases)
-[![Platform](https://img.shields.io/badge/platform-Windows-0078D4?style=flat-square&logo=windows)](https://github.com/band72/BoundaryQC-Releases/raw/main/BoundaryQC_1.5.82.exe)
+[![Version](https://img.shields.io/badge/version-1.5.83-blue?style=flat-square)](https://github.com/band72/BoundaryQC-Releases)
+[![Platform](https://img.shields.io/badge/platform-Windows-0078D4?style=flat-square&logo=windows)](https://github.com/band72/BoundaryQC-Releases/raw/main/BoundaryQC_1.5.83.exe)
 [![Framework](https://img.shields.io/badge/.NET-8.0%20WPF-512BD4?style=flat-square&logo=dotnet)](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 [![License](https://img.shields.io/badge/license-Proprietary-red?style=flat-square)](LICENSE)
 
-[**Download Latest Installer (BoundaryQC_1.5.82.exe)**](https://github.com/band72/BoundaryQC-Releases/raw/main/BoundaryQC_1.5.82.exe) · [Report a Bug](https://github.com/band72/BoundaryQC-Releases/issues) · [Changelog](https://github.com/band72/BoundaryQC-Releases/releases)
+[**Download Latest Installer (BoundaryQC_1.5.83.exe)**](https://github.com/band72/BoundaryQC-Releases/raw/main/BoundaryQC_1.5.83.exe) · [Report a Bug](https://github.com/band72/BoundaryQC-Releases/issues) · [Changelog](https://github.com/band72/BoundaryQC-Releases/releases)
 
 </div>
 
@@ -217,7 +217,7 @@ Parallel batch mode forks up to **15 concurrent AI agents** — configure under 
 
 ### Installer
 
-1. Download **[BoundaryQC_1.5.82.exe](https://github.com/band72/BoundaryQC-Releases/raw/main/BoundaryQC_1.5.82.exe)** directly from the repository.
+1. Download **[BoundaryQC_1.5.83.exe](https://github.com/band72/BoundaryQC-Releases/raw/main/BoundaryQC_1.5.83.exe)** directly from the repository.
 2. Run the installer — .NET 8 runtime is bundled, no separate download needed.
 3. Launch **BoundaryQC** from the Start Menu or Desktop shortcut.
 4. Configure your AI Engine under Settings: choose from Google Gemini models (requires a Gemini API key) or a **Custom** OpenAI-compatible API endpoint (e.g., Ollama, local hosting, or alternative providers).
@@ -261,5 +261,5 @@ This software is proprietary. Permission is granted for personal and internal ev
 ---
 
 <div align="center">
-<sub>Built with ⬡ for the land surveying community · v1.5.82</sub>
+<sub>Built with ⬡ for the land surveying community · v1.5.83</sub>
 </div>
