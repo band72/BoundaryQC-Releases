@@ -4,12 +4,12 @@
 
 **AI-powered land boundary verification, drafting, and DXF generation for Windows.**
 
-[![Version](https://img.shields.io/badge/version-1.5.83-blue?style=flat-square)](https://github.com/band72/BoundaryQC-Releases)
-[![Platform](https://img.shields.io/badge/platform-Windows-0078D4?style=flat-square&logo=windows)](https://github.com/band72/BoundaryQC-Releases/raw/main/BoundaryQC_1.5.83.exe)
+[![Version](https://img.shields.io/badge/version-1.85-blue?style=flat-square)](https://github.com/band72/BoundaryQC-Releases)
+[![Platform](https://img.shields.io/badge/platform-Windows-0078D4?style=flat-square&logo=windows)](https://github.com/band72/BoundaryQC-Releases/raw/main/BoundaryQC_1.85.exe)
 [![Framework](https://img.shields.io/badge/.NET-8.0%20WPF-512BD4?style=flat-square&logo=dotnet)](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 [![License](https://img.shields.io/badge/license-Proprietary-red?style=flat-square)](LICENSE)
 
-[**Download Latest Installer (BoundaryQC_1.5.83.exe)**](https://github.com/band72/BoundaryQC-Releases/raw/main/BoundaryQC_1.5.83.exe) · [Report a Bug](https://github.com/band72/BoundaryQC-Releases/issues) · [Changelog](https://github.com/band72/BoundaryQC-Releases/releases)
+[**Download Latest Installer (BoundaryQC_1.85.exe)**](https://github.com/band72/BoundaryQC-Releases/raw/main/BoundaryQC_1.85.exe) · [Report a Bug](https://github.com/band72/BoundaryQC-Releases/issues) · [Changelog](https://github.com/band72/BoundaryQC-Releases/releases)
 
 </div>
 
@@ -137,7 +137,7 @@ SolveMisclosureAsync (if needed)
 | AI misclosure repair | ✅ light | ✅ heavy | ✅ heavy | ✅ light | ✅ |
 | Adjacent lot isolation engine | — | ✅ | ✅ | — | — |
 | 2-page ANSI-B survey PDF | ✅ | ✅ | ✅ | ✅ | — |
-| **Success Rate (%)** | **88.5%** | **50%** | **90%** | **70%** | **67.2%** |
+| **Success Rate (%)** | **88.5%** | **50%** | **99.85%** | **70%** | **67.2%** |
 | **Production Ready** | No | No | **Yes** | No | No |
 
 > All four paths share the same final step — `DeedDrafter.GenerateDeedDxf()` — which writes the complete output.  
@@ -217,7 +217,7 @@ Parallel batch mode forks up to **15 concurrent AI agents** — configure under 
 
 ### Installer
 
-1. Download **[BoundaryQC_1.5.83.exe](https://github.com/band72/BoundaryQC-Releases/raw/main/BoundaryQC_1.5.83.exe)** directly from the repository.
+1. Download **[BoundaryQC_1.85.exe](https://github.com/band72/BoundaryQC-Releases/raw/main/BoundaryQC_1.85.exe)** directly from the repository.
 2. Run the installer — .NET 8 runtime is bundled, no separate download needed.
 3. Launch **BoundaryQC** from the Start Menu or Desktop shortcut.
 4. Configure your AI Engine under Settings: choose from Google Gemini models (requires a Gemini API key) or a **Custom** OpenAI-compatible API endpoint (e.g., Ollama, local hosting, or alternative providers).
@@ -261,5 +261,5 @@ This software is proprietary. Permission is granted for personal and internal ev
 ---
 
 <div align="center">
-<sub>Built with ⬡ for the land surveying community · v1.5.83</sub>
+<sub>Built with ⬡ for the land surveying community · v1.85</sub>
 </div>
