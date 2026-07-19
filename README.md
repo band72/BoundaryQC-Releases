@@ -182,20 +182,37 @@ BoundaryQC automatically routes each document to the correct extraction pipeline
 BoundaryQC supports a full headless CLI for server or script-driven automation:
 
 ```bash
-# Single image
+# 1. Single image plat/deed extraction
 BoundaryQC.exe --image plat.png --table table.png
 
-# Batch folder
+# 2. Batch folder extraction
 BoundaryQC.exe --batch "C:\Deeds\Regency-Title" --output "C:\Output"
 
-# Adjacent lot isolation
-BoundaryQC.exe --image plat.png --adjacent-lots "Lot 712,Lot 714,Lot 716"
+# 3. Headless DXF Checklist Compliance Analysis (First-Pass QC)
+BoundaryQC.exe --analyze-dxf "C:\extracted_result.dxf" --api-key "YOUR_GEMINI_KEY"
 
-# Validate table-crop thresholds
+# 4. Automated Train DXF Pipeline (Multi-Agent Secondary Analysis)
+BoundaryQC.exe --train-dxf "C:\result.dxf" --plat "C:\plat.png" --field-notes "C:\notes.jpg" --deed-text "BEING Lot 1..."
+
+# 5. Offline Mock Analysis (No API keys required)
+BoundaryQC.exe --analyze-dxf "C:\extracted_result.dxf" --mock
+
+# 6. Validate table-crop thresholds
 BoundaryQC.exe --validate-correct-crops "C:\crops-correct"
 ```
 
 Parallel batch mode forks up to **15 concurrent AI agents** — configure under **Settings → Output → Use Multiple Agents**.
+
+---
+
+## 🧪 Unit Testing
+
+To run the unit test suite covering coordinate geometry math, transformations, area calculation formulas, and spatial text queries:
+
+```bash
+# Execute the xUnit test project containing 122 test cases
+dotnet test BoundaryQC.sln
+```
 
 ---
 
